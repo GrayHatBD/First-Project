@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     margin: 0 auto;
+    width: 960px;
   }
   
   /* Media query for smaller screens */
@@ -9,7 +10,6 @@ body {
     .body {
       width: 100%; /* Switch to full width on smaller screens */
       padding: 0 20px; /* Add padding to the sides if needed */
-      width: 960px;
     }
   }
 h1{
