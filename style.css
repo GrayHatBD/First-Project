@@ -6,33 +6,26 @@ body {
   }
   
 /* Media query for smaller smartphones */
-    @media screen and (max-width: 480px) {
-        .body {
+@media screen and (max-width: 480px) {
+    .body {
         width: 100%; /* Switch to full width on smaller screens */
         padding: 10px; /* Adjust padding for smaller screens */
         }
     }
   
   /* Media query for medium-sized smartphones */
-    @media screen and (min-width: 481px) and (max-width: 768px) {
-        .body {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .body {
         width: 90%; /* Adjust width for medium-sized screens */
         padding: 15px; /* Adjust padding for medium-sized screens */
         }
     }
   
   /* Media query for larger smartphones */
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-        .body {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .body {
         width: 80%; /* Adjust width for larger screens */
         padding: 20px; /* Keep padding consistent for larger screens */
-        }
-    }
-
-  /* Media query for default zoom on desktop */
-    @media screen and (min-width: 1025px) and (max-width: 100vw) {
-        .container {
-        width: 100%; /* Full width for default zoom on desktop */
         }
     }
 
